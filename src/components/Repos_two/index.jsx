@@ -5,7 +5,7 @@ import BefFooter from "../../UI/before_footer"
 
 const index = () => {
     const [post, setPost] = useState([]);
-    
+
 
 
     const fetchPost = async () => {
@@ -15,7 +15,7 @@ const index = () => {
 
 
     };
-    post.splice(15);
+    post.splice(0,15);
     useEffect(() => {
         fetchPost()
     }, []);
@@ -73,7 +73,6 @@ const index = () => {
                                     </div>
                                 </div>
                             })}
-
 
                     </div>
 

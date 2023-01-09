@@ -12,6 +12,8 @@ import Followers from "./components/Followers/index"
 import Followings from "./components/Followings/index"
 import Find from "./components/Found"
 
+import Repo_two from "./components/Repos_two"
+
 const App = () => {
   const [state, setState] = useState(false);
   return (
@@ -23,17 +25,19 @@ const App = () => {
           <div className="container-xl ">
             <div className="row">
               <Left_side />
-              <SecondMain/>
+              <SecondMain />
               <Routes>
                 <Route path="/" element={<Overview />} />
                 <Route path="/repositories" element={<Repos />} />
                 <Route path="/followers" element={<Followers />} />
                 <Route path="/followings" element={<Followings />} />
                 <Route path="/find" element={<Find />} />
+                <Route path="/repositories_two" element={<Repo_two />} />
               </Routes>
             </div>
+
           </div>
-          <Footer/>
+          <Footer />
 
         </Context.Provider>
       </BrowserRouter>

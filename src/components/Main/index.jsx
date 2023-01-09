@@ -65,21 +65,20 @@ const index = () => {
               <span className="rounded-pill bg-secondary ms-1 px-2 ">{post.public_repos}</span>
             </NavLink>
 
-            <div className="pointer">
+            <a href='https://github.com/Mirxojiakbar?tab=projects' className="pointer">
               <span className="me-2 some-w"><iconify-icon icon="mdi:shape-square-plus" ></iconify-icon></span>
               Projects
-            </div>
+            </a>
 
-            <div className="pointer">
+            <a href='https://github.com/Mirxojiakbar?tab=packages' className="pointer">
               <span className="me-2 some-w"><iconify-icon icon="teenyicons:box-outline" ></iconify-icon></span>
               Packages
-            </div>
+            </a>
 
-            <div className="pointer">
+            <a href='https://github.com/Mirxojiakbar?tab=stars' className="pointer">
               <span className="me-2 some-w"><iconify-icon icon="ic:round-star-outline" ></iconify-icon></span>
               Stars
-              <span className="rounded-pill bg-secondary ms-1 px-2 ">3</span>
-            </div>
+            </a>
           </div>
 
         </div>
