@@ -1,0 +1,39 @@
+@media (max-width:930px) {
+
+    .Under_Nav {
+        font-size: 12.8px !important;
+    }
+}
+
+.stiky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    position: sticky !important;
+    z-index: 5 !important;
+    background: white !important;
+    margin-top: -70px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+@media (max-width:391px) {
+
+    .dn-c {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+
+    .dn-b {
+        display: none !important;
+    }
+}
+
+@media (max-width:581px) {
+
+    .dn-a {
+        display: none;
+    }
+}
