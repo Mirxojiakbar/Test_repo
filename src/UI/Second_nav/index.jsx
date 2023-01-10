@@ -26,7 +26,7 @@ const index = () => {
         <>
             <div className="stiky md-yes">
                 <div className="Under_Nav  border-bottom ">
-                    <div className="d-flex scrollbargit mt-3 justify-content-center">
+                    <div className="d-flex scrollbarfit  mt-3 justify-content-center">
                         <NavLink to="/" className={({ isActive }) => isActive ? "pointer border_bottom-orange" : "pointer"}>
                             <span className="me-2"><iconify-icon icon="ph:book-open-bold"></iconify-icon></span>
                             Overview
@@ -38,17 +38,17 @@ const index = () => {
                             <span className="rounded-pill bg-secondary ms-1 px-2 ">{post.public_repos}</span>
                         </NavLink>
 
-                        <div className="pointer dn-c">
+                        <div className="pointer ">
                             <span className="me-2 "><iconify-icon icon="mdi:shape-square-plus"></iconify-icon></span>
                             Projects
                         </div>
 
-                        <div className="pointer dn-b">
+                        <div className="pointer ">
                             <span className="me-2 "><iconify-icon icon="teenyicons:box-outline"></iconify-icon></span>
                             Packages
                         </div>
 
-                        <div className="pointer dn-a">
+                        <div className="pointer ">
                             <span className="me-2"><iconify-icon icon="ic:round-star-outline"></iconify-icon></span>
                             Stars
                         </div>
