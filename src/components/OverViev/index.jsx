@@ -33,7 +33,7 @@ const index = () => {
                     Mirxojiakbar Baxtiyorov | JavaScript developer
                 </h4>
                 <img className='videos' src="https://camo.githubusercontent.com/0b0ebdc4b9795af8ec7819ecaf3bb5c3df0e59c4deda48d833b11db6cb6e5633/68747470733a2f2f726561646d652d747970696e672d7376672e6865726f6b756170702e636f6d3f666f6e743d4d6f6e7473657272617426636f6c6f723d636f72616c266c696e65733d49276d2b612b46726f6e74656e642b446576656c6f7065723b49276d2b612b52656163742b4a532b446576656c6f706572" alt="I'm React JS Developer" />
-                <h5 className='mb-3 mt-4 '>Follow Me</h5>
+                <h5 className='mb-3 mt-4 '>Follow me</h5>
                 <div className='d-flex '>
                     <a href='https://t.me/mirxojiakbar' className='bg-dark text-white p-2 some-family'><iconify-icon icon="logos:telegram" width="20"></iconify-icon> <strong>T e l e g r a m</strong> </a>
                     <a href='https://www.instagram.com/mir.xojiakbar/' className='bg-dark text-white p-2 some-family'><iconify-icon icon="uil:instagram" style={{ color: "#e4405f" }} width="20"></iconify-icon><strong>I n s t a g r a m</strong> </a>

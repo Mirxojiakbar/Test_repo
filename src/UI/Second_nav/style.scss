@@ -17,23 +17,33 @@
     justify-content: center !important;
 }
 
-@media (max-width:391px) {
-
-    .dn-c {
-        display: none;
-    }
+.scrollbar{
+    width: 100%;
+    overflow: scroll;
 }
 
-@media (max-width:500px) {
 
-    .dn-b {
-        display: none !important;
+
+@media (max-width:391px) {
+
+
+        .scrollbar{
+            padding-left: 150px !important;
+            width: 90%;
+        }
+}
+
+@media (max-width:280px) {
+
+
+    .scrollbar{
+        padding-left: 230px !important;
     }
 }
 
 @media (max-width:581px) {
 
-    .dn-a {
-        display: none;
+    .scrollbar{
+        padding-left: 50px;
     }
 }

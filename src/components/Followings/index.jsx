@@ -29,7 +29,8 @@ const index = () => {
                             <div className="col-10 col-md-11  ">
                                 <div className='align-center  d-flex'>
                                     <img src={el.avatar_url} className="rounded-circle" alt="avatar" width="40px" />
-                                    <span className='text-decoration-none ms-1'><strong>{el.login}</strong> </span>
+                                    <a href={el.html_url}
+                                    className='text-dark text-decoration-none ms-1'><strong>{el.login}</strong> </a>
                                 </div>
                                 <div className='mt-3'>
                                 </div>

@@ -26,7 +26,7 @@ const index = () => {
         <>
             <div className="stiky md-yes">
                 <div className="Under_Nav  border-bottom ">
-                    <div className="d-flex mt-3 justify-content-center">
+                    <div className="d-flex scrollbargit mt-3 justify-content-center">
                         <NavLink to="/" className={({ isActive }) => isActive ? "pointer border_bottom-orange" : "pointer"}>
                             <span className="me-2"><iconify-icon icon="ph:book-open-bold"></iconify-icon></span>
                             Overview
